@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(252, 248, 220);
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+}
+
+
+.button {
+    color: hsl(0, 0%, 8%);
+    background-color: hsl(221, 96%, 90%);
+    border: 2px solid rgb(140, 38, 59);
+    border-radius: 5px;
+    font-size: 14px;
+    font-style: italic;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.button:active {
+    background-color: hsl(221, 96%, 60%);
+}
+
+.remove {
+    display: none;
+}

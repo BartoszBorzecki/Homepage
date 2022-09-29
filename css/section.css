@@ -1,0 +1,16 @@
+.section {
+    color: rgb(0, 60, 120);
+}
+
+
+.section__important {
+    color: rgb(140, 38, 59);
+}
+
+.section__image {
+    box-shadow: 15px 10px 21px 12px #080C59;
+}
+
+.section__container {
+    overflow-x: auto;
+}
